@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class CardDeliveryFormTest {
     @Test
     void shouldSubmitRequest() {
-        Configuration.holdBrowserOpen = true;
+
         open("http://localhost:9999/");
     }
 }
